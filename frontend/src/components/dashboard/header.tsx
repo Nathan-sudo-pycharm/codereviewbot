@@ -13,7 +13,7 @@ export function Header({ repoName }: HeaderProps) {
             {repoName ? `${repoName}` : "Select a Repository"}
           </h2>
           {repoName && (
-            <p className="text-sm text-muted-foreground mt-1">
+            <p className="text-xl text-muted-foreground mt-1">
               Code review analysis and insights
             </p>
           )}
